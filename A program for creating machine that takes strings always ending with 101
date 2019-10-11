@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	string s;
+	int c=0;
+	cin>>s;
+	int d=s.length();
+	if(s[d-3]=='1'&&s[d-2]=='0'&&s[d-1-]=='1')
+	cout<<"Yes"<<endl;
+	else
+	cout<<"No"<<endl;
+}
